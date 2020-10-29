@@ -3,9 +3,16 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .carousel-item {
-  height: 65vh;
+  height: 100vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
