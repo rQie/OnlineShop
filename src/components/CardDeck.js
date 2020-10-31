@@ -7,7 +7,10 @@ const CarDeck = () => (
 <CardDeck>
     <Row>
     <Col lg={4} sm={6}>
-  <Card className="card">
+  <Card className="card" style={{
+    marginBottom: "1.45rem",
+    backgroundColor: "black"
+  }}>
           <div className="img">
             <Card.Img
               className="img-card"
@@ -30,7 +33,9 @@ const CarDeck = () => (
         </Card>
   </Col>
   <Col lg={4} sm={6}>
-  <Card className="card">
+  <Card className="card" style={{
+    backgroundColor: "black"
+  }}>
           <div className="img">
             <Card.Img
               className="img-card"
@@ -53,7 +58,9 @@ const CarDeck = () => (
         </Card>
   </Col>
   <Col lg={4} sm={6}>
-  <Card className="card">
+  <Card className="card" style={{
+    backgroundColor: "black"
+  }}>
           <div className="img">
             <Card.Img
               className="img-card"
@@ -76,7 +83,9 @@ const CarDeck = () => (
         </Card>
   </Col>
   <Col lg={4} sm={6}>
-  <Card className="card">
+  <Card className="card" style={{
+    backgroundColor: "black"
+  }}>
           <div className="img">
             <Card.Img
               className="img-card"
@@ -99,7 +108,9 @@ const CarDeck = () => (
         </Card>
   </Col>
   <Col lg={4} sm={6}>
-  <Card className="card">
+  <Card className="card" style={{
+    backgroundColor: "black"
+  }}>
           <div className="img">
             <Card.Img
               className="img-card"
@@ -122,7 +133,9 @@ const CarDeck = () => (
         </Card>
   </Col>
   <Col lg={4} sm={6}>
-  <Card className="card">
+  <Card className="card" style={{
+    backgroundColor: "black"
+  }}>
           <div className="img">
             <Card.Img
               className="img-card"
