@@ -1,100 +1,148 @@
 import React from "react"
-// import "bootstrap/dist/css/bootstrap.css"
+import "bootstrap/dist/css/bootstrap.css"
 
-import { Row, Col,CardDeck, Card, } from 'react-bootstrap';
+import { Row, Col,CardDeck, Button, Card, } from 'react-bootstrap';
 
 const CarDeck = () => (
 <CardDeck>
     <Row>
-    <Col xl={2} lg={4} sm={6}>
-  <Card className="shadow single-img" style={{marginBottom: "1.45rem"}}>
-    <Card.Img variant="top" src="http://placehold.it/700x400" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
+    <Col lg={4} sm={6}>
+  <Card className="card">
+          <div className="img">
+            <Card.Img
+              className="img-card"
+              as="img"
+              variant="top"
+              src="https://images.unsplash.com/photo-1553984658-d17e19aa281a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=331&q=80"
+            />
+          </div>
+          <ul className="social-media">
+            <li>
+              <Button className="fa" variant="info">
+                Light
+              </Button>
+            </li>
+          </ul>
+          <div class="user-info">
+            <h2>Aniket Singh</h2>
+            <span>20-july</span>
+          </div>
+        </Card>
   </Col>
-  <Col xl={2} lg={4} sm={6}>
-  <Card className="shadow single-img" style={{marginBottom: "1.45rem"}}>
-    <Card.Img variant="top" src="http://placehold.it/700x400" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
+  <Col lg={4} sm={6}>
+  <Card className="card">
+          <div className="img">
+            <Card.Img
+              className="img-card"
+              as="img"
+              variant="top"
+              src="https://images.unsplash.com/photo-1553984658-d17e19aa281a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=331&q=80"
+            />
+          </div>
+          <ul className="social-media">
+            <li>
+              <Button className="fa" variant="info">
+                Light
+              </Button>
+            </li>
+          </ul>
+          <div class="user-info">
+            <h2>Aniket Singh</h2>
+            <span>20-july</span>
+          </div>
+        </Card>
   </Col>
-  <Col xl={2} lg={4} sm={6}>
-  <Card className="shadow single-img" style={{marginBottom: "1.45rem"}}>
-    <Card.Img variant="top" src="http://placehold.it/700x400" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
+  <Col lg={4} sm={6}>
+  <Card className="card">
+          <div className="img">
+            <Card.Img
+              className="img-card"
+              as="img"
+              variant="top"
+              src="https://images.unsplash.com/photo-1553984658-d17e19aa281a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=331&q=80"
+            />
+          </div>
+          <ul className="social-media">
+            <li>
+              <Button className="fa" variant="info">
+                Light
+              </Button>
+            </li>
+          </ul>
+          <div class="user-info">
+            <h2>Aniket Singh</h2>
+            <span>20-july</span>
+          </div>
+        </Card>
   </Col>
-  <Col xl={2} lg={4} sm={6}>
-  <Card className="shadow single-img" style={{marginBottom: "1.45rem"}}>
-    <Card.Img variant="top" src="http://placehold.it/700x400" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
+  <Col lg={4} sm={6}>
+  <Card className="card">
+          <div className="img">
+            <Card.Img
+              className="img-card"
+              as="img"
+              variant="top"
+              src="https://images.unsplash.com/photo-1553984658-d17e19aa281a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=331&q=80"
+            />
+          </div>
+          <ul className="social-media">
+            <li>
+              <Button className="fa" variant="info">
+                Light
+              </Button>
+            </li>
+          </ul>
+          <div class="user-info">
+            <h2>Aniket Singh</h2>
+            <span>20-july</span>
+          </div>
+        </Card>
   </Col>
-  <Col xl={2} lg={4} sm={6}>
-  <Card className="shadow single-img" style={{marginBottom: "1.45rem"}}>
-    <Card.Img variant="top" src="http://placehold.it/700x400" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
+  <Col lg={4} sm={6}>
+  <Card className="card">
+          <div className="img">
+            <Card.Img
+              className="img-card"
+              as="img"
+              variant="top"
+              src="https://images.unsplash.com/photo-1553984658-d17e19aa281a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=331&q=80"
+            />
+          </div>
+          <ul className="social-media">
+            <li>
+              <Button className="fa" variant="info">
+                Light
+              </Button>
+            </li>
+          </ul>
+          <div class="user-info">
+            <h2>Aniket Singh</h2>
+            <span>20-july</span>
+          </div>
+        </Card>
   </Col>
-  <Col xl={2} lg={4} sm={6}>
-  <Card className="shadow single-img" style={{marginBottom: "1.45rem"}}>
-    <Card.Img variant="top" src="http://placehold.it/700x400" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
+  <Col lg={4} sm={6}>
+  <Card className="card">
+          <div className="img">
+            <Card.Img
+              className="img-card"
+              as="img"
+              variant="top"
+              src="https://images.unsplash.com/photo-1553984658-d17e19aa281a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=331&q=80"
+            />
+          </div>
+          <ul className="social-media">
+            <li>
+              <Button className="fa" variant="info">
+                Light
+              </Button>
+            </li>
+          </ul>
+          <div class="user-info">
+            <h2>Aniket Singh</h2>
+            <span>20-july</span>
+          </div>
+        </Card>
   </Col>
   </Row>
 </CardDeck>
