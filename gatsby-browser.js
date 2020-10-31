@@ -6,8 +6,11 @@
 
 // You can delete this file if you're not using it
 
-// import "./src/css/main.css"
+import "./src/css/main.css"
 import "./src/css/modern-business.css"
 import "./src/css/layout.css"
+// import 'bootstrap-css-only/css/bootstrap.min.css' 
+import "bootstrap/dist/css/bootstrap.css"
+
 
 

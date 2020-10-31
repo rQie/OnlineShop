@@ -1,15 +1,15 @@
 import React from "react"
-import "bootstrap/dist/css/bootstrap.css"
+// import "bootstrap/dist/css/bootstrap.css"
 import { Carousel } from 'react-bootstrap';
 
 
 const ImageSlide = () => {
 
   return(
-<Carousel>
+<Carousel className="carousel slide carousel-fade" intervel={500} style={{marginBottom: "1.45rem"}} >
   <Carousel.Item interval={2000}>
     <img
-      className="carousel-item active" //must active *study why active!!!
+      className="d-block w-100" //must active *study why active!!!
       src="https://d19m59y37dris4.cloudfront.net/varkala/1-2/img/photo/home-3-plain.jpg"
       alt="First slide"
     />
@@ -20,7 +20,7 @@ const ImageSlide = () => {
   </Carousel.Item>
   <Carousel.Item interval={2000}>
     <img
-      className="carousel-item active" //must active *study why active!!!
+      className="d-block w-100" //must active *study why active!!!
       src="https://static.nike.com/a/images/f_auto/dpr_1.0/w_1239,c_limit/79242e64-26fc-4af6-b4ca-77cb802d9b75/nike-just-do-it.jpg"
       alt="Third slide"
     />
@@ -31,7 +31,7 @@ const ImageSlide = () => {
   </Carousel.Item>
   <Carousel.Item interval={2000}>
     <img
-      className="carousel-item active" //must active *study why active!!!
+      className="d-block w-100" //must active *study why active!!!
       src="https://d19m59y37dris4.cloudfront.net/varkala/1-2/img/photo/home-2-plain.jpg"
       alt="Third slide"
     />

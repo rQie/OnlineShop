@@ -3,24 +3,62 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
-.container {
+/* .container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
-
+} */
+/* 
 .carousel-item {
-  height: 100vh;
-  min-height: 300px;
+  height: 20vh;
+  min-height: 150px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+} */
+
+/*
+===============
+CardImage
+===============
+*/
+.cardInner{
+  overflow: hidden;
 }
 
-.portfolio-item {
-  margin-bottom: 30px;
+.cardInner img{
+  transition: all 1.5s ease;
+}
+
+.cardInner:hover img{
+  transform: scale(1.1);
+}
+
+/*
+===============
+CardDeck
+===============
+*/
+
+.single-img:hover{
+  transform: translate(0, -9px) ;
+}
+.img-text{
+  background: #fff;
+  padding: 0 10px 5px 10px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  transform: translate(0, 110px);
+  line-height: 24px;
+  transition: 0.5s ease;
+  display: inline-block ;
+}
+
+.single-img:hover .img-text{
+  transform: translate(0,0);
 }
