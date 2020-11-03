@@ -1,41 +1,52 @@
 import React from "react"
-import { FaFacebookSquare, FaTwitterSquare } from "react-icons/fa"
-import { AiFillInstagram, AiFillGithub } from "react-icons/ai"
+import { Link } from "gatsby";
+import { FaFacebookF, FaGooglePlusG } from "react-icons/fa";
+import { GrTwitter } from "react-icons/gr";
+import { SiInstagram, SiPinterest } from "react-icons/si";
+
+import { Row, Col } from 'react-bootstrap';
+
+
 
 const data = [
   {
     id: 1,
-    icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-    // url: "https://www.facebook.com/rifqiea",
-  },
-  {
-    id: 5,
-    icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-    // url: "https://twitter.com/Rifqie_Akma?s=09",
+    icon: <FaFacebookF className="social-icon"></FaFacebookF>,
+    url: "#",
   },
   {
     id: 2,
-    icon: <AiFillInstagram className="social-icon"></AiFillInstagram>,
-    // url: "https://t.co/90uexxD1Om?amp=1",
+    icon: <GrTwitter className="social-icon"></GrTwitter>,
+    url: "#",
   },
   {
     id: 3,
-    icon: <AiFillGithub className="social-icon"></AiFillGithub>,
-    // url: "https://github.com/rQie",
+    icon: <FaGooglePlusG className="social-icon"></FaGooglePlusG>,
+    url: "#",
+  },
+  {
+    id: 4,
+    icon: <SiInstagram className="social-icon"></SiInstagram>,
+    url: "#",
+  },
+  {
+    id: 5,
+    icon: <SiPinterest className="social-icon"></SiPinterest>,
+    url: "#",
   },
 ]
 const links = data.map(link => {
   return (
-    <li key={link.id}>
-      <a href={link.url} className="social-link">
+    <div className="footer-social" key={link.id}>
+      <Link to={link.url} className="social-link">
         {link.icon}
-      </a>
-    </li>
+      </Link>
+    </div>
   )
 })
 
 export default ({ styleClass }) => {
   return (
-    <ul className={`social-links ${styleClass ? styleClass : ""}`}>{links}</ul>
+    <div className={`social-links ${styleClass ? styleClass : ""}`}>{links}</div>
   )
 }

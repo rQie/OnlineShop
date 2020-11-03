@@ -1,5 +1,4 @@
 import React from "react"
-// import "bootstrap/dist/css/bootstrap.css"
 
 import { Navbar } from 'react-bootstrap';
 import PageLinks from "../constants/links"
