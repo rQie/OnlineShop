@@ -4,6 +4,7 @@ import { Row, Col } from 'react-bootstrap';
 
 import PageLinks from "../constants/links"
 import SocialLink from "../constants/socialLink"
+import Contacts from "../constants/contact"
 
 
 const Footer = () => {
@@ -29,20 +30,7 @@ const Footer = () => {
             </Col>
             <Col md={4} className="offset-md-1 footer-contact wow fadeInDown">
               <h3>Contact</h3>
-              <p>
-                <i className="fas fa-map-marker-alt"></i> Via Rossini 10, 10136
-                Turin Italy
-              </p>
-              <p>
-                <i className="fas fa-phone"></i> Phone: (0039) 333 12 68 347
-              </p>
-              <p>
-                <i className="fas fa-envelope"></i> Email:{" "}
-                <Link to="mailto:hello@domain.com">hello@domain.com</Link>
-              </p>
-              <p>
-                <i className="fab fa-skype"></i> Skype: you_online
-              </p>
+              <Contacts/>
             </Col>
             <Col md={4} className="footer-links wow fadeInUp">
               <Row>
@@ -50,34 +38,8 @@ const Footer = () => {
                   <h3>Links</h3>
                 </Col>
               </Row>
-              <Row>
-                <Col md={6}>
-                  <p>
-                    <Link className="scroll-link" to="#top-content">
-                      Home
-                    </Link>
-                  </p>
-                  <p>
-                    <Link to="#">Features</Link>
-                  </p>
-                  <p>
-                    <Link to="#">How it works</Link>
-                  </p>
-                  <p>
-                    <Link to="#">Our clients</Link>
-                  </p>
-                </Col>
-                <Col md={6}>
-                  <p>
-                    <Link to="#">Plans &amp; pricing</Link>
-                  </p>
-                  <p>
-                    <Link to="#">Affiliates</Link>
-                  </p>
-                  <p>
-                    <Link to="#">Terms</Link>
-                  </p>
-                </Col>
+              <Row >
+                  <PageLinks/>
               </Row>
             </Col>
           </Row>
@@ -86,10 +48,10 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="container">
           <Row className="footer-links">
-            <div className="col-md-6 footer-copyright">
+            <Col col={6} className="footer-copyright">
               &copy; 2020 Your company. All rights reserved. Template by{" "}
               <Link to="hhttps://rifqie.netlify.app/">RIFQIE</Link>
-            </div>
+            </Col>
             <SocialLink />
           </Row>
         </div>

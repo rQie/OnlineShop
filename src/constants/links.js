@@ -4,17 +4,18 @@ import { Nav } from 'react-bootstrap';
 const data = [
   {
     id: 1,
-    text: "home",
+    text: "Home",
     url: "/",
+    style: "scoll-Link"
   },
   {
     id: 2,
-    text: "about",
+    text: "About",
     url: "/about/",
   },
   {
     id: 3,
-    text: "contact",
+    text: "Contact",
     url: "/contact/",
   },
 ]
@@ -24,11 +25,10 @@ const tempLinks = data.map(link => {
         <Nav.Link id={link.id} href={link.url}>{link.text}</Nav.Link>
   )
 })
-// I KNOW WE CAN COMBINE IT !!!!!
 
-export default ({ styleClass }) => {
+export default () => {
   return (
-    <Nav className="mr-auto" >
+    <Nav className="link-direction" >
       {tempLinks}
       </Nav>
 

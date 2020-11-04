@@ -4,34 +4,30 @@ import { FaFacebookF, FaGooglePlusG } from "react-icons/fa";
 import { GrTwitter } from "react-icons/gr";
 import { SiInstagram, SiPinterest } from "react-icons/si";
 
-import { Row, Col } from 'react-bootstrap';
-
-
-
 const data = [
   {
     id: 1,
-    icon: <FaFacebookF className="social-icon"></FaFacebookF>,
+    icon: <FaFacebookF></FaFacebookF>,
     url: "#",
   },
   {
     id: 2,
-    icon: <GrTwitter className="social-icon"></GrTwitter>,
+    icon: <GrTwitter></GrTwitter>,
     url: "#",
   },
   {
     id: 3,
-    icon: <FaGooglePlusG className="social-icon"></FaGooglePlusG>,
+    icon: <FaGooglePlusG></FaGooglePlusG>,
     url: "#",
   },
   {
     id: 4,
-    icon: <SiInstagram className="social-icon"></SiInstagram>,
+    icon: <SiInstagram></SiInstagram>,
     url: "#",
   },
   {
     id: 5,
-    icon: <SiPinterest className="social-icon"></SiPinterest>,
+    icon: <SiPinterest></SiPinterest>,
     url: "#",
   },
 ]

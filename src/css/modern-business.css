@@ -261,25 +261,33 @@ CardDeck
   color: #79a05f;
   border: 0;
 }
-/* .footer-social i {
+.footer-social i {
   font-size: 24px;
   vertical-align: middle;
-} */
+}
 
-.footer-copyright {
-  padding-top: 5px;
-}
-.footer-copyright a {
-  color: #fff;
-  border: 0;
-}
-.footer-copyright a:hover,
-.footer-copyright a:focus {
-  color: #aaa;
-  border: 0;
-}
+.footer-copyright { padding-top: 5px; }
+.footer-copyright a { color: #fff; border: 0; }
+.footer-copyright a:hover, .footer-copyright a:focus { color: #aaa; border: 0; }
+
 
 /* social links */
 .social-links {
   display: flex;
+}
+
+.footer-links {
+  justify-content: space-between;
+}
+
+.link-direction{
+  flex-direction: column;
+
+}
+
+.social-icon{
+  margin-right: 20px;
+  color: #777;
+  border: 0;
+  font-size: 18px;
 }
