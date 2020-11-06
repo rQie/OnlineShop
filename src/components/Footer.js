@@ -28,7 +28,7 @@ const Footer = () => {
                 <Link to="#">Our Team</Link>
               </p>
             </Col>
-            <Col md={4} className="offset-md-1 footer-contact wow fadeInDown">
+            <Col md={{span: 4, offset: 1}} className="footer-contact wow fadeInDown">
               <h3>Contact</h3>
               <Contacts/>
             </Col>
@@ -36,10 +36,8 @@ const Footer = () => {
               <Row>
                 <Col>
                   <h3>Links</h3>
-                </Col>
-              </Row>
-              <Row >
                   <PageLinks/>
+                </Col>
               </Row>
             </Col>
           </Row>
@@ -50,7 +48,7 @@ const Footer = () => {
           <Row className="footer-links">
             <Col col={6} className="footer-copyright">
               &copy; 2020 Your company. All rights reserved. Template by{" "}
-              <Link to="hhttps://rifqie.netlify.app/">RIFQIE</Link>
+              <Link to="https://rifqie.netlify.app/">RIFQIE</Link>
             </Col>
             <SocialLink />
           </Row>

@@ -3,10 +3,6 @@ import { Link } from "gatsby";
 import { FaPhone, FaEnvelope } from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
 
-import { Row, Col } from 'react-bootstrap';
-
-
-
 const data = [
   {
     id: 1,
@@ -39,7 +35,7 @@ const links = data.map(link => {
   )
 })
 
-export default ({ styleClass }) => {
+export default () => {
   return (
     <div>{links}</div>
   )
